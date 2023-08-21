@@ -1,0 +1,106 @@
+{
+  "intents": [
+    {
+      "tag": "tel_aviv_general",
+      "patterns": ["Tell me about Tel Aviv", "What do you know about Tel Aviv?"],
+      "responses": ["Tel Aviv is a vibrant city on Israel's Mediterranean coast, known for its modern architecture, beaches, and nightlife."]
+    },
+    {
+      "tag": "tel_aviv_beaches",
+      "patterns": ["What are the best beaches in Tel Aviv?", "Tell me about Tel Aviv's beaches"],
+      "responses": ["Tel Aviv is famous for its beautiful beaches like Gordon Beach, Banana Beach, and Frishman Beach."]
+    },
+    {
+      "tag": "tel_aviv_nightlife",
+      "patterns": ["Tell me about Tel Aviv's nightlife", "Where can I go out in Tel Aviv?"],
+      "responses": ["Tel Aviv's nightlife is thriving with clubs, bars, and restaurants in areas like Rothschild Boulevard and Florentin."]
+    },
+    {
+      "tag": "tel_aviv_food",
+      "patterns": ["What food is Tel Aviv known for?", "Where can I eat in Tel Aviv?"],
+      "responses": ["Tel Aviv is known for its delicious food, including falafel, hummus, and shawarma. Don't miss the Carmel Market for local flavors!"]
+    },
+    {
+      "tag": "tel_aviv_culture",
+      "patterns": ["Tell me about the culture in Tel Aviv", "What cultural sites are there in Tel Aviv?"],
+      "responses": ["Tel Aviv has a rich cultural scene with museums like the Tel Aviv Museum of Art and historic sites like Jaffa's Old City."]
+    },
+    {
+      "tag": "tel_aviv_technology",
+      "patterns": ["Tell me about Tel Aviv's tech scene", "Is Tel Aviv a tech hub?"],
+      "responses": ["Tel Aviv is a major tech hub, home to many startups and international tech companies. It's often referred to as 'Silicon Wadi'."]
+    },
+    {
+      "tag": "tel_aviv_transportation",
+      "patterns": ["How can I get around Tel Aviv?", "Tell me about transportation in Tel Aviv"],
+      "responses": ["Tel Aviv has various transportation options including buses, shared bicycles, and taxis. The light rail system is under construction."]
+    },
+    {
+      "tag": "tel_aviv_hotels",
+      "patterns": ["Where can I stay in Tel Aviv?", "Tell me about hotels in Tel Aviv"],
+      "responses": ["Tel Aviv offers a wide range of accommodation options, from luxury hotels to hostels, in areas like the city center and beachfront."]
+    },
+    {
+      "tag": "tel_aviv_shopping",
+      "patterns": ["Where can I shop in Tel Aviv?", "Tell me about shopping in Tel Aviv"],
+      "responses": ["Tel Aviv has diverse shopping options, from high-end boutiques to local markets like the Carmel Market and Jaffa Flea Market."]
+    },
+    {
+      "tag": "tel_aviv_history",
+      "patterns": ["Tell me about the history of Tel Aviv", "What are some historical sites in Tel Aviv?"],
+      "responses": ["Tel Aviv's history is rich, with sites like Jaffa's Old City and Neve Tzedek. It was founded in 1909 and has grown into a modern metropolis."]
+    },
+      {
+      "tag": "cinema_location",
+      "patterns": [
+        "Where is the Cinematheque?",
+        "Where can I find Lev cinema?",
+        "Location of Roof top Cinema City Azrieli?",
+        "Where is Rav Hen located?",
+        "Location of Lev Mandarin?"
+      ],
+      "responses": [
+        "Cinematheque is located at שפרינצק 2.",
+        "Lev cinema is at דיזנגוף 50.",
+        "Roof top Cinema City Azrieli is on בגין מנחם 132.",
+        "Rav Hen is located at בן עמי 16.",
+        "Lev Mandarin is at יוניצ'מן 21."
+      ]
+    },
+    {
+      "tag": "cinema_contact",
+      "patterns": [
+        "What's the phone number of Cinematheque?",
+        "How can I contact Lev?",
+        "Phone number of Roof top Cinema City Azrieli?",
+        "Contact details of Rav Hen?",
+        "How can I contact Lev Mandarin?"
+      ],
+      "responses": [
+        "You can reach Cinematheque at 03-6060800.",
+        "Lev cinema can be contacted at 03-6212222 ; *5155.",
+        "Roof top Cinema City Azrieli's phone number is 03-6081179.",
+        "You can reach Rav Hen at 03-5282288.",
+        "Lev Mandarin can be contacted at 03-7412666 *5155."
+      ]
+    },
+    {
+      "tag": "cinema_halls",
+      "patterns": [
+        "How many halls does Cinematheque have?",
+        "Tell me about the number of halls in Lev.",
+        "Number of halls in Roof top Cinema City Azrieli?",
+        "How many halls does Rav Hen have?",
+        "Number of halls in Lev Mandarin?"
+      ],
+      "responses": [
+        "Cinematheque has 2 halls.",
+        "Lev has 4 halls.",
+        "Roof top Cinema City Azrieli has 8 halls.",
+        "Rav Hen has 6 halls.",
+        "Lev Mandarin has 2 halls."
+      ]
+    }
+
+  ]
+}
